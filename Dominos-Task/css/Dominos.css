@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header start */
+
+header {
+    height: 70px;
+    /* background: gray; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .logo {
+    height: inherit;
+    width: 30%;
+    /* background: lightcoral; */
+    padding: 15px 0 0 120px;
+}
+
+header nav {
+    height: inherit;
+    width: 50%;
+    /* background: blue; */
+    padding-top: 23px;
+}
+
+header nav ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5f88a3;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+header .app {
+    height: inherit;
+    width: 20%;
+    /* background: lightgreen; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .app a button {
+    height: 45px;
+    width: 148px;
+    /* padding: 10px 15px; */
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3223b;
+    color: #ffffff;
+    border: #f3223b;
+    border-radius: 5px;
+}
+
+
+/* header end */
+
+
+/* content start */
+
+.main {
+    height: 450px;
+    background: #1a5ca3;
+    display: flex;
+    /* padding: 17px; */
+}
+
+.main .ima {
+    height: inherit;
+    width: 40%;
+    /* background: lawngreen; */
+    padding: 160px 0 0 100px;
+    padding-right: 20px;
+}
+
+.main .ima h2 {
+    color: #ffffff;
+    font-size: 31px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: 120px; */
+    /* margin-left: 110px; */
+}
+
+.main .ima span {
+    color: #47a0ff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-top: ; */
+    /* margin-left: 110px; */
+}
+
+.main .ima a button {
+    margin-top: 20px;
+    padding: 20px 110px;
+    font-size: 18px;
+    /* margin-left: 108px; */
+    background: #1fb31a;
+    color: #ffffff;
+    border: #1fb31a;
+    border-radius: 3px;
+}
+
+.main .ima a img {
+    margin-top: 10px;
+    /* margin-left: 108px; */
+}
+
+.main a .image {
+    height: inherit;
+    width: 60%;
+    /* background: #f3223b; */
+}
+
+
+/* content end */
+
+
+/* dominos start */
+
+.menu {
+    height: 350px;
+    width: 80%;
+    /* background: gray; */
+    margin: 20px auto;
+}
+
+.menu .text {
+    height: 50px;
+    /* background: red; */
+    padding: 10px 0 10px 0;
+}
+
+.menu .text h2 {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #708aa5;
+}
+
+.menu .part {
+    height: 300px;
+    width: 100%;
+    /* background: lightcoral; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .part .x {
+    height: 300px;
+    width: 24%;
+    border: 2px dotted;
+    border-bottom: none;
+    /* margin-left: 10px; */
+}
+
+.menu .part .x .under {
+    height: 120px;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+}
+
+.menu .part .x .under a img {
+    padding-top: 30px;
+}
+
+.menu .part .x h3 {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b4547;
+    margin-top: 10px;
+}
+
+.menu .part .x p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b4547;
+    margin-top: 20px;
+}
+
+.menu .part .x .v {
+    margin-top: 10px;
+}
+
+.menu .x .ab {
+    height: 50px;
+    /* background: green; */
+    text-align: center;
+    line-height: 50px;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #de042e;
+    border: 2px dotted;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
